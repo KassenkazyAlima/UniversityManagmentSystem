@@ -1,6 +1,6 @@
 # University Management System (UMS)
 
-## Project Name and Description
+## Project Description
 **University Management System (UMS)** is a Spring Boot-based web application designed for managing students, courses, enrollments, and user authentication with role-based access control using JWT for security. The system provides RESTful API endpoints for CRUD operations on students, courses, and enrollments. It is designed to be used by administrative and teaching staff in a university setting to manage student records and academic courses efficiently.
 
 ## How to Run the Project
@@ -62,8 +62,8 @@ Below are some example API endpoints you can use:
     Authorization: Bearer <valid JWT token>
     
     {
-        "firstName": "Alima",
-        "lastName": "Kassenkazy",
+        "firstName": "name",
+        "lastName": "surname",
         "email": "alima@example.com"
     }
     ```
@@ -87,8 +87,8 @@ Below are some example API endpoints you can use:
     Content-Type: application/json
     
     {
-        "firstName": "Updated Alima",
-        "lastName": "Kassenkazy",
+        "firstName": "Updated name",
+        "lastName": "surname",
         "email": "updated.alima@example.com"
     }
     ```
@@ -129,9 +129,7 @@ Below are some example API endpoints you can use:
 ## Contact Information
 
 For any questions or support, please contact:
-- **Email**: your-email@example.com
-- **GitHub**: [https://github.com/yourusername/ums](https://github.com/yourusername/ums)
+- **Email**: alimakairat17@gmail.com
+- **GitHub**: [https://github.com/KassenkazyAlima/UniversityManagmentSystem](https://github.com/KassenkazyAlima/UniversityManagmentSystem.git)
 
----
 
-Feel free to update the README file with your specific details, like email, project repository link, and any additional functionality you have implemented. Let me know if you need further modifications!
