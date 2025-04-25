@@ -40,11 +40,16 @@ The project is organized as follows:
 - **src/main/java**: Contains all the Java source code for the application.
   - **com.example.ums.config**: Configuration classes (e.g., Spring Security, JWT setup).
   - **com.example.ums.controller**: REST API controllers for handling HTTP requests.
-  - **com.example.ums.model**: Domain models such as `Student`, `Course`, and `Enrollment`.
+  - **com.example.ums.entity**: Domain models such as `Student`, `Course`, and `Enrollment`.
   - **com.example.ums.repository**: Repository interfaces for database access (using Spring Data JPA).
   - **com.example.ums.security**: Security-related components such as JWT token generation and authentication filters.
-  - **com.example.ums.service**: Service classes for handling business logic.
-  - **com.example.ums.util**: Helper classes (if any).
+  - **com.example.ums.services**: Service classes for handling business logic.
+  - **com.example.ums.dto**: Data Transfer Objects (DTOs) used to transfer data between different layers of the application.
+  - **com.example.ums.exceptions**: Custom exceptions and global exception handling for managing errors.
+  - **com.example.ums.mappers**: Classes that map entities to DTOs and vice versa, helping with data conversion.
+  - **com.example.ums.strategy**: Strategy pattern implementations for different sorting mechanisms (e.g., sorting courses by date, by number of students).
+ 
+    
 
 - **src/main/resources**: Configuration files.
   - **application.properties**: Configuration for database connection, JWT secrets, and Spring settings.
