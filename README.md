@@ -112,7 +112,9 @@ Below are some example API endpoints you can use:
 - **Spring Data JPA**: Simplifies database interaction with Hibernate and PostgreSQL.
 - **PostgreSQL**: Relational database for storing data.
 - **Maven**: Build automation tool.
-- **H2 Database (optional)**: For testing and in-memory database.
+- **Flyway**: Database migration tool for version control of the database.
+- **MapStruct**: Code generator for bean mapping.
+- **Lombok**: Reduces boilerplate code by generating getters, setters, and constructors automatically.
 
 ## Build and Run Commands
 
