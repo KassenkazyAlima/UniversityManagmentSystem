@@ -1,4 +1,7 @@
-package com.example.ums.repositories;
+package com.example.ums.repository;
 
-public class CourseRepository {
+import com.example.ums.entity.Course;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CourseRepository extends JpaRepository<Course, Long> {
 }
