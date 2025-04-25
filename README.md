@@ -14,8 +14,8 @@
 ### Steps to run:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ums.git
-    cd ums
+    git clone https://github.com/KassenkazyAlima/UniversityManagmentSystem.git
+    cd UniversityManagmentSystem
     ```
 
 2. Install dependencies:
